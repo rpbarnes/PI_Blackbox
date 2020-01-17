@@ -1,9 +1,9 @@
 # PI_Blackbox
 Contains firmware for Raspberry Pi datalogging 
-  <t>GUI/</t>
+  - GUI/
       contains bare bones code for C/GTK based GUI to display on HDMI screen
 
-  <t>InfluxDB/</t>
+  - InfluxDB/
       working code to store metrics to remote database
 
   <t>PI_Firmware/</t>
