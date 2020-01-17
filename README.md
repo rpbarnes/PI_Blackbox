@@ -11,7 +11,7 @@ Some code I've written so far.... (not necessarily to be used in final project, 
       code that runs on PI_DAQ board that synchronously takes data samples
       
   - `Sockets/`
-      sample code for sending text packets between to computers over socket connection
+      sample code for sending text packets between two computers over socket connection
       
   - `Recipe/`
       crude version to run stepped loads over defined time intervals on the PI_DAQ
