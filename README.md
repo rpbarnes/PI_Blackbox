@@ -15,3 +15,5 @@ Some code I've written so far.... (not necessarily to be used in final project, 
       
   - `Recipe/`
       crude version to run stepped loads over defined time intervals on the PI_DAQ
+  - `PCB'
+      PCB Fabrication files and Kicad project files. Some of Kicad libraries used might not be present here
