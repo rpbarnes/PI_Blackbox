@@ -6,11 +6,11 @@ Contains firmware for Raspberry Pi datalogging
   - InfluxDB/
       working code to store metrics to remote database
 
-  <t>PI_Firmware/</t>
+  - PI_Firmware/
       code that runs on PI_DAQ board that synchronously takes data samples
       
-  <t>Sockets/</t>
+  - Sockets/ 
       sample code for sending text packets between to computers over socket connection
       
-  <t>Recipe/</t>
+  - Recipe/ 
       crude version to run stepped loads over defined time intervals on the PI_DAQ
