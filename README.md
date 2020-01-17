@@ -1,6 +1,6 @@
 # PI_Blackbox
 Contains firmware for Raspberry Pi datalogging 
-Some code I've written so far.... (not necessarily to be used in final project, but this is a good repository)
+Some code I've written so far.... (not necessarily to be used in final project, but this is a good repository for sharing working code)
   - `GUI/`
       contains bare bones code for C/GTK based GUI to display on HDMI screen
 
