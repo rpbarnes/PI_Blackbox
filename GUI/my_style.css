@@ -1,0 +1,266 @@
+#Main_Window{
+    background-color: #060709;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+#DUT_ID_Grid{
+  background-color: #33393B;
+}
+
+#Compressor_Text_Label, #Displacer_Text_Label, #Dewar_Text_Label,
+#CCC_Text_Label, #Run_Profile_Text_Label
+{
+  /*  font-size:   29px;  */
+  font-size:   15px;
+  color:       #BBBBBB;
+  font-family: Roboto Medium;
+  /*font-family: Roboto Medium;*/
+  font-style: normal;
+  font-weight: bold;
+}
+
+#Compressor_ID_Value_Label, #Displacer_ID_Value_Label, #Dewar_ID_Value_Label,
+#CCC_ID_Value_Label, #Run_Profile_ID_Value_Label
+{
+  /*  font-size:   29px;  */
+  font-size:   17px;
+  color:       #E0E0E0;
+  font-family: Roboto Medium;
+  font-style:  normal;
+  font-weight: bold;
+}
+
+#Dewar_Temp_Container{
+  background-color: #111111;
+  border-radius: 5px;
+  border-color: #3982CF;
+  border-width: 3px;
+  border-style: solid;
+  padding: 3px;
+}
+
+#Dewar_Temp_Container_Label{
+  /*  font-size:   36px;  */
+  font-size:   19px;
+  font-family: Roboto Black;
+  /*font-family: Roboto Medium;*/
+  font-style:  normal;
+  font-weight: bold;
+  color:       #6FB5FF;
+}
+
+#Dewar_Temp_Box{
+  /*  font-size:   56px;  */
+  font-size:   24px;
+  font-family: Inter Black;
+  /*font-family: Roboto Medium;*/
+  font-style: normal;
+  font-weight: bold;
+  color:       #E5E5E5;
+}
+
+#Elapsed_Time_Container{
+   /* background-color: #0973B3; */
+  border-radius: 8px;
+  background-color: #111111;
+  border-radius: 5px;
+  border-color: #34B43D;
+  border-width: 3px;
+  border-style: solid;
+  padding: 3px;
+}
+
+#Elapsed_Time_Value_Label{
+  /*  font-size:   30px;  */
+/*  font-family:  Alien Encounters Solid;*/
+  font-size:   23px;
+  font-family: Roboto Black;
+  /*font-stretch: semi-expanded;*/
+  font-style:   normal;
+  font-weight:  bold;
+  color:        #E9E9E9;
+}
+
+#Elapsed_Time_Heading_Label{
+  /*  font-size:   32px;  */
+  font-size:   19px;
+  font-family: Roboto Black;
+  /*font-family: Overpass;*/
+  /*font-family: Roboto Medium;*/
+  font-style: normal;
+  font-weight: bold;
+  color: #34F53D;
+  /*color:       #2CB027;*/
+}
+
+
+#Clock_Box{
+  background-color: #202020;
+  border-radius: 8px;
+}
+
+#Clock_Heading_Label{
+  /*  font-size:   30px;  */
+  font-size:   17px;
+  font-family: Roboto Medium;
+  font-style: normal;
+  font-weight: bold;
+  color:       #D2E2E2;
+}
+
+#Clock_Value_Label{
+  /*  font-size:   33px;  */
+  font-size:   16px;
+  font-family: Roboto Medium;
+  font-style: normal;
+  font-weight: bold;
+  font-stretch: semi-expanded;
+  color:    #F1F1F1;
+}
+
+#Date_Value_Label{
+/*  font-size:   30px;  */
+  font-size:   16px;
+  font-family: Roboto Medium;
+  font-style: normal;
+  font-weight: bold;
+  font-stretch: semi-expanded;
+  color:    #F1F1F1;
+}
+
+#BlackBox_Box{
+  font-size:   16px;
+  font-family: Roboto Medium;
+  font-style: normal;
+  font-weight: 900;
+/*  font-stretch: semi-expanded; */
+  color:       #F9F9F9;
+  background-color: #24A43D;
+  border-radius: 6px;
+  padding: 2px;
+}
+
+#Cooler_Container_Label, #Heat_Load_Container_Label {
+  font-size:   20px;
+  background-color: #151515;
+  background: linear-gradient(180deg, rgba(61,157,248,0.667) 50%, rgba(48,94,169,1) 100%);
+  border-width:1px;
+  border-style: solid;
+  border-color: #1C6EA4;
+  border-radius: 5px;
+  border-bottom: 2px solid #445a68;
+  font-weight: bold;
+  font-stretch: semi-expanded;
+  font-family: Inter Black;
+  color: #E6E6E6;
+}
+
+#Cooler_V_Box, #Cooler_mA_Box{
+  /*  color: #D1393B; */
+    color: #DA2A3A;
+    font-family: Inter Black;
+/*    background-color: #33393B; */
+    background-color: #151515;
+    border-style:     solid;
+    border-color:     #151515;
+    border-width:     3px;
+    border-radius:    3px;
+    font-size:        30px;
+    font-weight:      900;
+}
+
+#Cooler_W_Box{
+    font-size:   42px;
+    font-weight: 400;
+    font-family: Inter Black;
+/*    font-stretch: semi-expanded; */
+    color: #FF2A4A;
+    background-color: #151515;
+    border-width: 2px;
+    border-style: solid;
+    /*border-color: #33393B;*/
+    border-color: #151515;
+    border-radius: 0px 0px 4px 4px;
+  /*  border-top: 2px solid #323232;*/
+}
+
+#Heat_Load_V_Box, #Heat_Load_mA_Box{
+    font-size:   30px;
+    font-family: Inter Black;
+    color: #CE6721;
+    background-color: #151515;
+    border-style: solid;
+    /*border-color: #33393B;*/
+    border-color: #151515;
+    border-width: 1px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+#Heat_Load_W_Box{
+    font-size:   42px;
+    color: #E76500;
+    font-family: Inter Black;
+    background-color: #151515;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #151515;
+    border-radius: 0px 0px 4px 4px;
+    /*border-top: 2px solid #323232;*/
+    border-top: 2px solid #151515;
+    font-stretch: semi-expanded;
+    font-weight: normal;
+}
+
+#THRMCPL1_Heading_Label, #THRMCPL2_Heading_Label, #THRMCPL3_Heading_Label{
+  font-size:   19px;
+  font-family: Roboto Medium;
+  font-style: normal;
+  font-weight: bold;
+  color: #CAC8C8;
+}
+
+#Temperature1_Value_Label, #Temperature1_Units_Label,
+#Temperature2_Value_Label, #Temperature2_Units_Label,
+#Temperature3_Value_Label, #Temperature3_Units_Label
+{
+  font-size:   24px;
+  font-family: Roboto Medium;
+  font-style: normal;
+  font-weight: bold;
+  color: #F7E73A;
+}
+
+#THRMCPL1_Box, #THRMCPL2_Box, #THRMCPL3_Box{
+/*   background-color: #43494B;  */
+  background-color: #151515;
+  border-radius: 4px;
+  border-color: #C7A73A;
+  border-width: 2px;
+  border-style: solid;
+  padding: 2px;
+}
+
+#Log_File_Description_Label, #IP_Addr_Description_Label, #Disk_Use_Description_Label{
+  /*    font-size:   28px;  */
+  font-size:   15px;
+  font-family: Roboto Medium;
+  font-style: normal;
+  font-weight: bold;
+  color:       #B9B9B9;
+}
+
+#Log_File_Value_Label, #IP_Addr_Value_Label, #Disk_Use_Value_Label{
+  /*    font-size:   30px;  */
+  font-size:   17px;
+  font-family: Roboto Medium;
+  font-style: normal;
+  font-weight: bold;
+  color:       #E0E0E0;
+}
+
+#IP_Addr_Value_Label{
+  color:       #FF6DF4;
+}
