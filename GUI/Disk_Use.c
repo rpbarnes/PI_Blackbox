@@ -1,8 +1,10 @@
-include <sys/statvfs.h>
+#include <sys/statvfs.h>
+
+// Some sample quode to query disk usage on Pi for reporting
 
 
 /* Any file on the filesystem in question */
-char *filename = "/home/tyreld/somefile.txt";
+char *filename = "/home/somefile.txt";
 
 struct statvfs buf;
 if (!statvfs(filename, &buf)) {
