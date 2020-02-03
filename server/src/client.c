@@ -4,7 +4,7 @@
 #include <string.h> 
 #include <sys/socket.h> 
 #define MAX 80 
-#define PORT 8080 
+#define PORT 5000 
 #define SA struct sockaddr 
 void func(int sockfd) 
 { 
@@ -16,14 +16,16 @@ void func(int sockfd)
         n = 0; 
         while ((buff[n++] = getchar()) != '\n') 
             ; 
-        write(sockfd, buff, sizeof(buff)); 
-        bzero(buff, sizeof(buff)); 
-        read(sockfd, buff, sizeof(buff)); 
-        printf("From Server : %s", buff); 
+
+        // see if we should exit.
         if ((strncmp(buff, "exit", 4)) == 0) { 
             printf("Client Exit...\n"); 
             break; 
         } 
+        write(sockfd, buff, sizeof(buff)); 
+        bzero(buff, sizeof(buff)); 
+        read(sockfd, buff, sizeof(buff)); 
+        printf("From Server : %s", buff); 
     } 
 } 
   
